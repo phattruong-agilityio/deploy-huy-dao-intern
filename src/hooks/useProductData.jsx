@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 // Constants
-import { PRODUCT_DATABASE } from '../database/products.json';
+import PRODUCT_DATABASE  from '../database/products';
 
 /**
  * Custom hook to fetch and retrieve product data from the database.
@@ -11,12 +11,7 @@ import { PRODUCT_DATABASE } from '../database/products.json';
  * @returns {Array} Array of products.
  */
 export const useProductData = () => {
-  const [products, setProducts] = useState([]);
-
-  fetch(PRODUCT_DATABASE)
-    .then((response) => response.json())
-    .then((data) => setProducts(data))
-    .catch((error) => console.log(error));
+  const [products, setProducts] = useState(PRODUCT_DATABASE);
 
   return products;
 };

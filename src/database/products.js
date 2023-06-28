@@ -1,4 +1,4 @@
-[
+export default [
   {
     "id": 1,
     "images": "https://cdn.tgdd.vn/Products/Images/42/274018/samsung-galaxy-a24-black-thumb-600x600.jpg",
