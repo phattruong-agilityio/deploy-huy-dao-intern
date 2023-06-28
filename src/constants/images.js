@@ -1,6 +1,6 @@
 import filterUrl from '../assets/images/filter.svg'
 import downUrl from '../assets/images/down.png'
-import upUrl from '../assets/images/up.svg'
+import upUrl from '../assets/images/up.png'
 import backUrl from '../assets/images/back.svg'
 import unheartUrl from '../assets/images/unheart.svg'
 import heartUrl from '../assets/images/heart.svg'
