@@ -1,0 +1,49 @@
+.wishlist {
+  position: absolute;
+  background-color: #fff;
+  padding: 2em;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  width: 64em;
+  top: 10%;
+  left: 20%;
+}
+
+.wishlist-title {
+  font-family: var(--ffamily-secondary);
+  font-size: 2em;
+  line-height: var(--lheight-xl);
+  text-align: center;
+  color: #d7443e;
+  margin-bottom: 2em;
+  padding-bottom: 0.2em;
+  position: relative;
+}
+
+.wishlist-title::after {
+  position: absolute;
+  content: '';
+  height: 0.1em;
+  width: 100%;
+  background: #d7443e;
+  bottom: 0;
+  left: 0;
+}
+
+.wishlist-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wishlist .button-tertiary {
+  background-color: transparent;
+  border: none;
+  transition: all 1s ease;
+}
+
+.wishlist .button-tertiary:hover {
+  transform: translateX(-0.5em);
+}
+
+.wishlist .button-tertiary img {
+  width: 20px;
+}

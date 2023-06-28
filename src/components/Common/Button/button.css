@@ -1,0 +1,42 @@
+.button {
+  font-family: var(--ffamily-primary);
+  border: var(--border-primary);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {
+  border-color: #2f80ed;
+}
+
+.button-primary {
+  color: var(--clr-primary);
+  background-color: #fff;
+  border-radius: var(--radius-secondary);
+}
+
+.button-secondary {
+  background-color: transparent;
+  border-radius: var(--radius-primary);
+}
+
+.button-small {
+  font-size: var(--fsize-md);
+  line-height: var(--lheight-sm);
+  padding: 0.25em 0.3125em;
+  background-color: #eaeaea;
+}
+
+.button-medium {
+  font-size: var(--fsize-l);
+  line-height: var(--lheight-md);
+  padding: 0.5em 0.625em;
+}
+
+.button-large {
+  padding: 0.375em 0.8125em;
+}
+
+.button-selected {
+  border-color: red;
+}

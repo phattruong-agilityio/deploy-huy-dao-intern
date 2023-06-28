@@ -1,0 +1,36 @@
+:root {
+  /* COLOR */
+  --clr-primary: #333;
+  --clr-secondary: #288ad6;
+  --clr-teri: #e83a45;
+  --clr-radius: #e0e0e0;
+
+  /* FONT SIZE */
+  --fsize-sm: 0.6875em;
+  --fsize-md: 0.75em;
+  --fsize-l: 0.875em;
+  --fsize-xl: 1em;
+
+  /* LINE HEIGHT */
+  --lheight-sm: 0.75em;
+  --lheight-md: 1.0625em;
+  --lheight-l: 1.125em;
+  --lheight-xl: 1.25em;
+
+  /* FONT FAMILY */
+  --ffamily-primary: 'regular';
+  --ffamily-secondary: 'bold';
+
+  /* BORDER */
+  --border-primary: 0.0625em solid var(--clr-radius);
+
+  /* RADIUS */
+  --radius-primary: 3.25em;
+  --radius-secondary: 0.25em;
+
+  /* TRANSITION */
+  --transition-primary: all 0.3s linear;
+
+  /* TRANSFORM */
+  --transform-primary: capitalize;
+}

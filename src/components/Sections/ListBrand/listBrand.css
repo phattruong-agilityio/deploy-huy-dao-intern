@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-brand {
+  width: 73.875em;
+  gap: 1em;
+}
+
+.list-brand .button img {
+  width: 7em;
+  height: 1.5em;
+}

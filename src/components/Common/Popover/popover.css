@@ -1,0 +1,35 @@
+.popover {
+  box-shadow: 0 0.125em 1.25em rgba(0, 0, 0, 0.5);
+  border-radius: var(--radius-secondary);
+  padding: 0.625em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popover img {
+  width: 5em;
+}
+
+.popover .title {
+  font-size: var(--fsize-xl);
+  line-height: var(--lheight-xl);
+  font-family: var(--ffamily-secondary);
+}
+
+.popover-primary {
+  width: 34em;
+}
+
+.popover-secondary {
+  width: 40em;
+}
+
+.popover-tertiary {
+  width: 50em;
+}
+
+.popover .button-primary {
+  margin-bottom: 1em;
+}

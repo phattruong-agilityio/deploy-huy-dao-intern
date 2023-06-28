@@ -1,0 +1,38 @@
+@import './abstracts/variables.css';
+@import './base/typography.css';
+@import './base/reset.css';
+@import './base/base.css';
+
+.container-fluid {
+  max-width: 90em;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.popup {
+  padding-left: 2em;
+  position: relative;
+}
+
+.popover {
+  position: absolute;
+  background-color: #fff;
+}
+
+.product-title {
+  font-family: var(--ffamily-secondary);
+  font-size: var(--fsize-xl);
+  line-height: var(--lheight-xl);
+  padding: 2em 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.8);
+}
