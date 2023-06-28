@@ -51,7 +51,4 @@ const CATEGORIES = [
   { id: 3, value: 'Price' }
 ];
 
-// Database
-const PRODUCT_DATABASE = '../../database/products.json';
-
-export { SIZES, VARIANTS, PRICES, TYPES, PRODUCT_DATABASE, CATEGORIES };
+export { SIZES, VARIANTS, PRICES, TYPES, CATEGORIES };

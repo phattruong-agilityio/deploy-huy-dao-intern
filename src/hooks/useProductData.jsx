@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 // Constants
-import { PRODUCT_DATABASE } from '../constants/constant';
+import { PRODUCT_DATABASE } from '../database/products.json';
 
 /**
  * Custom hook to fetch and retrieve product data from the database.

@@ -1,61 +1,79 @@
+import filterUrl from '../assets/images/filter.svg'
+import downUrl from '../assets/images/down.png'
+import upUrl from '../assets/images/up.svg'
+import backUrl from '../assets/images/back.svg'
+import unheartUrl from '../assets/images/unheart.svg'
+import heartUrl from '../assets/images/heart.svg'
+
+import iphoneUrl from '../assets/images/iphone.png'
+import samsungUrl from '../assets/images/samsung.png'
+import oppoUrl from '../assets/images/oppo.jpg'
+import xiaomiUrl from '../assets/images/xiaomi.png'
+import vivoUrl from '../assets/images/vivo.png'
+import realmeUrl from '../assets/images/realme.png'
+import nokiaUrl from '../assets/images/nokia.jpg'
+import masstelUrl from '../assets/images/masstel.png'
+import itelUrl from '../assets/images/itel.jpg'
+import mobellUrl from '../assets/images/mobell.jpg'
+
 const ICON = {
-  FILTER: '../../public/images/filter.svg',
-  DOWN: '../../public/images/down.png',
-  UP: '../../public/images/up.png',
-  BACK: '../../public/images/back.png',
-  UNHEART: '../../public/images/unheart.png',
-  HEART: '../../public/images/heart.png'
+  FILTER: filterUrl,
+  DOWN: downUrl,
+  UP: upUrl,
+  BACK: backUrl,
+  UNHEART: unheartUrl,
+  HEART: heartUrl
 };
 
 const BRAND = [
   {
     id: 1,
-    imageURL: '../../public/images/iphone.png',
+    imageURL: iphoneUrl,
     type: 'iphone'
   },
   {
     id: 2,
-    imageURL: '../../public/images/samsung.png',
+    imageURL: samsungUrl,
     type: 'samsung'
   },
   {
     id: 3,
-    imageURL: '../../public/images/oppo.jpg',
+    imageURL: oppoUrl,
     type: 'oppo'
   },
   {
     id: 4,
-    imageURL: '../../public/images/xiaomi.png',
+    imageURL: xiaomiUrl,
     type: 'xiaomi'
   },
   {
     id: 5,
-    imageURL: '../../public/images/vivo.png',
+    imageURL: vivoUrl,
     type: 'vivo'
   },
   {
     id: 6,
-    imageURL: '../../public/images/realme.png',
+    imageURL: realmeUrl,
     type: 'realme'
   },
   {
     id: 7,
-    imageURL: '../../public/images/nokia.jpg',
+    imageURL: nokiaUrl,
     type: 'nokia'
   },
   {
     id: 8,
-    imageURL: '../../public/images/masstel.png',
+    imageURL: masstelUrl,
     type: 'masstel'
   },
   {
     id: 9,
-    imageURL: '../../public/images/itel.jpg',
+    imageURL: itelUrl,
     type: 'itel'
   },
   {
     id: 10,
-    imageURL: '../../public/images/mobell.jpg',
+    imageURL: mobellUrl,
     type: 'mobell'
   }
 ];
