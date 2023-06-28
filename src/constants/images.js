@@ -1,7 +1,7 @@
 import filterUrl from '../assets/images/filter.svg'
 import downUrl from '../assets/images/down.png'
 import upUrl from '../assets/images/up.png'
-import backUrl from '../assets/images/back.svg'
+import backUrl from '../assets/images/back.png'
 import unheartUrl from '../assets/images/unheart.png'
 import heartUrl from '../assets/images/heart.png'
 
